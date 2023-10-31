@@ -7,6 +7,12 @@ public class StudentApp {
     private String email;
     private String course;
 
+    public StudentApp(String name, String email, String course) {
+        this.name = name;
+        this.email = email;
+        this.course = course;
+    }
+
     public void displayInfo(){
         System.out.println("Name is: " + name + "\nEmail is: " + email + "\nCourse is: " + course);
     }
