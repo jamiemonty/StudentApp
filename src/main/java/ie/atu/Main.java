@@ -52,7 +52,7 @@ public class Main {
     }
 
     public static void displayStudentDetails(StudentApp student) {
-        System.out.println("Name: " + student.getName());
+        System.out.println("\n\nName: " + student.getName());
         System.out.println("Email: " + student.getEmail());
         System.out.println("Course: " + student.getCourse());
     }
