@@ -1,6 +1,6 @@
 package ie.atu;
 
-import java.sql.SQLOutput;
+import java.util.Scanner;
 
 public class StudentApp {
     private String name;
@@ -13,10 +13,9 @@ public class StudentApp {
         this.course = course;
     }
 
-    public void displayInfo(){
-        System.out.println("Name is: " + name + "\nEmail is: " + email + "\nCourse is: " + course);
+    public StudentApp(String name) {
+        this.name = name;
     }
-
     public String getName() {
         return name;
     }
@@ -30,6 +29,7 @@ public class StudentApp {
     }
 
     public void setName(String name) {
+
         this.name = name;
     }
 
