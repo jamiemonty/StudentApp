@@ -1,10 +1,15 @@
 package ie.atu;
 
+import java.sql.SQLOutput;
+
 public class StudentApp {
     private String name;
     private String email;
     private String course;
 
+    public void displayInfo(){
+        System.out.println("Name is: " + name + "\nEmail is: " + email + "\nCourse is: " + course);
+    }
 
     public String getName() {
         return name;
